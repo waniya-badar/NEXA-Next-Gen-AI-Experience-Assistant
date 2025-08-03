@@ -1,0 +1,422 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Assalamualikum",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes...",
+                "The world tongue-twister champion just got arrested...",
+                "I own the world's worst thesaurus...",
+                "What did the traffic light say to the car? Don't look now, I'm changing.",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems...",
+                "As I get older I remember all the people I've lost along the way...",
+                "So what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Waniya, a  Virtual Assistant for you , ready to serve you the best"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made Waniya."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :( , i would avoid to make you mad again in future"
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Having my best time with You Sir!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                "i'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2025, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the weather",
+                "Is it going to rain today?",
+                "How's the weather?",
+                "Is it hot outside?"
+            ],
+            "responses": [
+                "Checking the weather for you...",
+                "It looks sunny today!",
+                "It might rain today. Take an umbrella!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "alarm",
+            "patterns": [
+                "Set an alarm",
+                "Wake me up at 6 AM",
+                "Alarm for 8 in the morning",
+                "Set alarm please"
+            ],
+            "responses": [
+                "Alarm set successfully!",
+                "Sure, setting an alarm now."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "reminder",
+            "patterns": [
+                "Remind me to drink water",
+                "Set a reminder",
+                "Don't let me forget my meeting",
+                "Make a reminder for dinner"
+            ],
+            "responses": [
+                "Okay, I'll remind you.",
+                "Reminder created!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+       
+        {
+            "tag": "capital",
+            "patterns": [
+                "What is the capital of Pakistan?",
+                "Tell me the capital of France",
+                "What's the capital city of Japan?",
+                "capital of Germany?"
+            ],
+            "responses": [
+                "Let me look that up for you.",
+                "Here is the capital:"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "emotions",
+            "patterns": [
+                "I feel sad",
+                "I'm depressed",
+                "I'm really happy today",
+                "I'm angry",
+                "I'm excited"
+            ],
+            "responses": [
+                "I'm here for you.",
+                "That\u2019s great to hear!",
+                "I'm sorry you're feeling that way.",
+                "I'm listening. You can talk to me."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "facts",
+            "patterns": [
+                "Tell me a fact",
+                "Random fact",
+                "Give me a science fact",
+                "Interesting info please"
+            ],
+            "responses": [
+                "Did you know that honey never spoils?",
+                "Octopuses have three hearts!",
+                "Bananas are berries, but strawberries aren\u2019t."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "quotes",
+            "patterns": [
+                "Give me a quote",
+                "Inspire me",
+                "Motivational quote please",
+                "Tell me something deep"
+            ],
+            "responses": [
+                "The best time to plant a tree was 20 years ago. The second best time is now.",
+                "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+                "Believe you can and you're halfway there."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": [
+                "Tell me a riddle",
+                "Give me a brain teaser",
+                "Say a riddle",
+                "Riddle me"
+            ],
+            "responses": [
+                "What has hands but can\u2019t clap? (Answer: A clock)",
+                "I speak without a mouth and hear without ears. What am I? (Answer: An echo)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "open_app",
+            "patterns": [
+                "Open calculator",
+                "Launch notepad",
+                "Start paint",
+                "Open Chrome",
+                "Open Zoom"
+            ],
+            "responses": [
+                "Sure, opening the application...",
+                "Launching now..."
+            ],
+            "context": [
+                ""
+            ]
+        },
+       
+        {
+            "tag": "help",
+            "patterns": [
+                "Help me",
+                "I need help",
+                "What can you do?",
+                "List your features",
+                "How do I use this assistant?"
+            ],
+            "responses": [
+                "I can help you with weather, jokes, reminders, math, opening apps and more!",
+                "Ask me anything from calculations to fun facts to setting reminders."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
